@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>task2</title>
+        <meta name="description" content="task2 round2">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+<div class="container">
+    <!--input search -->
+    <div class="search ms-auto py-4">
+        <div class="position-relative">
+            <input type="search" class="form-control" placeholder="search..." id="search">
+            <i class="fa-solid fa-magnifying-glass icon-search position-absolute  top-50 translate-middle-y"></i>
+        </div>
+        
+    </div>
+
+      <!-- input text -->
+    <div class="input m-auto d-flex align-items-center position-relative">
+        <input type="text" class="form-control p-2" placeholder="text..." id="inputdata">
+        <span class="fa-stack fa-1x position-absolute top-50 end-0 translate-middle-y" id="add">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-solid fa-plus fa-stack-1x fa-inverse"></i>
+          </span>
+        <span class="fa-stack fa-1x position-absolute top-50 end-0 translate-middle-y d-none"  id="edit">
+            <i class="fa-solid fa-circle fa-stack-2x text-info" ></i>
+            <i class="fa-regular fa-pen-to-square fa-stack-1x fa-inverse"></i>
+         </span>
+    </div>
+   
+<!-- rowData -->
+    <ol class="m-auto mt-3" id="rowData"></ol>
+
+
+
+
+
+
+<!-- alert -->
+<div id="alert" class="position-fixed bottom-0 ">
+</div>
+
+
+</div>
+
+      
+
+
+
+
+
+
+        <script src='js/index.js'></script>
+    </body>
+</html>
